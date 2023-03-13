@@ -19,7 +19,7 @@ for entry in feed.entries:
     if strong_tag and day_tag and day_tag.text == days[today]:
         print(f"{days[today]}:")
         print(f"          {strong_tag.text}")
-        print("Muut päivat:")
+        print("Muut päivät:")
     #Muut päivät    
     else:
         if strong_tag:
